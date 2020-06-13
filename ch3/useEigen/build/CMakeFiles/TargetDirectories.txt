@@ -1,0 +1,3 @@
+/mnt/hgfs/slambook2/ch3/useEigen/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/slambook2/ch3/useEigen/build/CMakeFiles/eigenMatrix.dir
+/mnt/hgfs/slambook2/ch3/useEigen/build/CMakeFiles/edit_cache.dir
