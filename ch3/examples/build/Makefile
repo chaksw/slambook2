@@ -123,6 +123,19 @@ corrdianteTransform/fast:
 	$(MAKE) -f CMakeFiles/corrdianteTransform.dir/build.make CMakeFiles/corrdianteTransform.dir/build
 .PHONY : corrdianteTransform/fast
 
+#=============================================================================
+# Target rules for targets named plotTrajectory
+
+# Build rule for target.
+plotTrajectory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plotTrajectory
+.PHONY : plotTrajectory
+
+# fast build rule for target.
+plotTrajectory/fast:
+	$(MAKE) -f CMakeFiles/plotTrajectory.dir/build.make CMakeFiles/plotTrajectory.dir/build
+.PHONY : plotTrajectory/fast
+
 corrdianteTransform.o: corrdianteTransform.cpp.o
 
 .PHONY : corrdianteTransform.o
@@ -150,6 +163,33 @@ corrdianteTransform.cpp.s:
 	$(MAKE) -f CMakeFiles/corrdianteTransform.dir/build.make CMakeFiles/corrdianteTransform.dir/corrdianteTransform.cpp.s
 .PHONY : corrdianteTransform.cpp.s
 
+plotTrajectory.o: plotTrajectory.cpp.o
+
+.PHONY : plotTrajectory.o
+
+# target to build an object file
+plotTrajectory.cpp.o:
+	$(MAKE) -f CMakeFiles/plotTrajectory.dir/build.make CMakeFiles/plotTrajectory.dir/plotTrajectory.cpp.o
+.PHONY : plotTrajectory.cpp.o
+
+plotTrajectory.i: plotTrajectory.cpp.i
+
+.PHONY : plotTrajectory.i
+
+# target to preprocess a source file
+plotTrajectory.cpp.i:
+	$(MAKE) -f CMakeFiles/plotTrajectory.dir/build.make CMakeFiles/plotTrajectory.dir/plotTrajectory.cpp.i
+.PHONY : plotTrajectory.cpp.i
+
+plotTrajectory.s: plotTrajectory.cpp.s
+
+.PHONY : plotTrajectory.s
+
+# target to generate assembly for a file
+plotTrajectory.cpp.s:
+	$(MAKE) -f CMakeFiles/plotTrajectory.dir/build.make CMakeFiles/plotTrajectory.dir/plotTrajectory.cpp.s
+.PHONY : plotTrajectory.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... corrdianteTransform"
 	@echo "... edit_cache"
+	@echo "... corrdianteTransform"
+	@echo "... plotTrajectory"
 	@echo "... corrdianteTransform.o"
 	@echo "... corrdianteTransform.i"
 	@echo "... corrdianteTransform.s"
+	@echo "... plotTrajectory.o"
+	@echo "... plotTrajectory.i"
+	@echo "... plotTrajectory.s"
 .PHONY : help
 
 

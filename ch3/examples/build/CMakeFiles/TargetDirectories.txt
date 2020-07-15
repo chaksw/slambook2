@@ -1,3 +1,4 @@
 /mnt/hgfs/slambook2/ch3/examples/build/CMakeFiles/rebuild_cache.dir
-/mnt/hgfs/slambook2/ch3/examples/build/CMakeFiles/corrdianteTransform.dir
 /mnt/hgfs/slambook2/ch3/examples/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/slambook2/ch3/examples/build/CMakeFiles/corrdianteTransform.dir
+/mnt/hgfs/slambook2/ch3/examples/build/CMakeFiles/plotTrajectory.dir

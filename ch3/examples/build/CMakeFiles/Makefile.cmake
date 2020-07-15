@@ -11,6 +11,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
+  "/usr/local/lib/cmake/Pangolin/PangolinConfig.cmake"
+  "/usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake"
+  "/usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake"
+  "/usr/local/lib/cmake/Pangolin/PangolinTargets.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
@@ -43,4 +47,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/corrdianteTransform.dir/DependInfo.cmake"
+  "CMakeFiles/plotTrajectory.dir/DependInfo.cmake"
   )

@@ -1,0 +1,54 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Complie", //这里注意一下，见下文
+            "command": "/usr/bin/g++",
+            "args": [
+                "${file}",
+                "-o",   
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-g",
+                "-Wall",
+                "-std=c++2a",
+                "-stdlib=libc++",
+
+                "-I", "/usr/local/include",
+                "-I", "/usr/local/include/opencv4",
+                "-I", "/usr/local/include/opencv4/opencv2",
+                "-L", "/usr/local/lib",
+                "-l", "opencv_core",
+                "-l", "opencv_imgproc",
+                "-l", "opencv_imgcodecs",
+                "-l", "opencv_video",
+                "-l", "opencv_ml",
+                "-l", "opencv_highgui",
+                "-l", "opencv_objdetect",
+                "-l", "opencv_flann",
+                "-l", "opencv_imgcodecs",
+                "-l", "opencv_photo",
+                "-l", "opencv_videoio"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true   // 不为true时ctrl shift B就要手动选择
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always", // 执行任务时是否跳转到终端面板，可以为always，silent，never。具体参见VSC的文档
+                "focus": false,     // 设为true后可以使执行task时焦点聚集在终端，但对编译C/C++来说，设为true没有意义
+                "panel": "shared",  // 不同的文件的编译信息共享一个终端面
+                "showReuseMessage": true,
+                "clear": false
+            }
+            
+        }
+    ]
+}

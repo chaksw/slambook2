@@ -1,0 +1,4 @@
+/mnt/hgfs/slambook2/ch5/imageBasics/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/slambook2/ch5/imageBasics/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/slambook2/ch5/imageBasics/build/CMakeFiles/imageBasics.dir
+/mnt/hgfs/slambook2/ch5/imageBasics/build/CMakeFiles/undistortImage.dir

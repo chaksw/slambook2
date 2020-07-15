@@ -1,0 +1,4 @@
+/mnt/hgfs/slambook2/ch7/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/slambook2/ch7/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/slambook2/ch7/build/CMakeFiles/orb_cv.dir
+/mnt/hgfs/slambook2/ch7/build/CMakeFiles/orb_self.dir
