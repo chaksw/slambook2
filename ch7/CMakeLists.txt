@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(ch7)
+project(vo1)
 
 set(CMAKE_BUILD_TYPE "Release")
 add_definitions("-DENABLE_SSE")
@@ -17,3 +17,9 @@ target_link_libraries(orb_cv ${OpenCV_LIBS})
 
 add_executable(orb_self orb_self.cpp)
 target_link_libraries(orb_self ${OpenCV_LIBS})
+
+add_executable(pose_estimation_2d2d pose_estimation_2d2d.cpp)
+target_link_libraries(pose_estimation_2d2d ${OpenCV_LIBS})
+
+add_executable(triangulation triangulation.cpp)
+target_link_libraries(triangulation ${OpenCV_LIBS})

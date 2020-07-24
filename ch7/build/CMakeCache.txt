@@ -130,7 +130,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ch7
+CMAKE_PROJECT_NAME:STATIC=vo1
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -189,6 +189,12 @@ ch7_BINARY_DIR:STATIC=/mnt/hgfs/slambook2/ch7/build
 
 //Value Computed by CMake
 ch7_SOURCE_DIR:STATIC=/mnt/hgfs/slambook2/ch7
+
+//Value Computed by CMake
+vo1_BINARY_DIR:STATIC=/mnt/hgfs/slambook2/ch7/build
+
+//Value Computed by CMake
+vo1_SOURCE_DIR:STATIC=/mnt/hgfs/slambook2/ch7
 
 
 ########################
